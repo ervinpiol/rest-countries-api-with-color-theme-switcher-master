@@ -42,7 +42,7 @@ function App() {
     <div
       className={`App w-full mx-auto ${
         darkMode ? "bg-DarkBackground" : "bg-LightBackground"
-      } ${selectCountry || searchedCountry ? "h-screen md:h-full" : "h-full"}`}
+      } ${selectCountry || searchedCountry ? "h-screen xl:h-full" : "h-full"}`}
     >
       <Header
         setDarkMode={setDarkMode}
